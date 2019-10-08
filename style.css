@@ -1,7 +1,13 @@
+.page {
+    width: 780px;
+    margin: auto;
+    font-size: 16px;
+    font-family:Calibri,Tahoma,SansSerif;
+}
 .nom {
     text-align: center;
     font-family: Calibri,SansSerif;
     font-size: xx-large;
-    color: deepskyblue;
+    color: black;
 
 }
