@@ -1,5 +1,5 @@
 .info{
-    border: 2px solid cadetblue;
+    border: 5px solid cadetblue;
     margin-bottom: 10px;
     padding: 25px;
     width: 150px;
@@ -9,10 +9,11 @@
     box-shadow: 2px 4px 3px black;
     margin: 25px;
     background: white;
+    margin-inline-start: 500px;
 
 }
 #exp{
-    border: 3px solid cadetblue;
+    border: 5px solid cadetblue;
     box-shadow: 2px 4px 3px black;
     padding: 25px;
     width: 500px;
@@ -23,7 +24,7 @@
 
 }
 #exp1{
-    border: 3px solid cadetblue;
+    border: 5px solid cadetblue;
     box-shadow: 2px 4px 3px black;
     padding: 25px;
     width: 500px;
@@ -34,7 +35,7 @@
 
 }
 .form{
-    border: 3px solid cadetblue;
+    border: 5px solid cadetblue;
     box-shadow: 2px 4px 3px black;
     padding: 25px;
     width: 500px;
