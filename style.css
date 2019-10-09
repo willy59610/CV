@@ -1,13 +1,64 @@
-.page {
-    width: 780px;
-    margin: auto;
-    font-size: 16px;
-    font-family:Calibri,Tahoma,SansSerif;
-}
-.nom {
-    text-align: center;
-    font-family: Calibri,SansSerif;
-    font-size: xx-large;
-    color: black;
+.info{
+    border: 2px solid cadetblue;
+    margin-bottom: 10px;
+    padding: 25px;
+    width: 150px;
+    height: 200px;
+    text-align: left;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 3px black;
+    margin: 25px;
+    background: white;
 
+}
+#exp{
+    border: 3px solid cadetblue;
+    box-shadow: 2px 4px 3px black;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    margin: 25px;
+    background: white;
+
+}
+#exp1{
+    border: 3px solid cadetblue;
+    box-shadow: 2px 4px 3px black;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    margin: 25px;
+    background: white;
+
+}
+.form{
+    border: 3px solid cadetblue;
+    box-shadow: 2px 4px 3px black;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    background: white;
+
+}
+.page {
+    font-family: Calibri;
+    box-shadow: 2px 4px 3px black;
+    height: 1600px;
+    background: floralwhite;
+
+}
+h2{
+    color: cadetblue;
+}
+#exp:hover{
+    color: red;
+}
+#exp1:hover{
+    color: red;
+}
+.info:hover{
+    color: red;
 }
