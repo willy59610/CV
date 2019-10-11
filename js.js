@@ -6,6 +6,7 @@ function afficher_cacher(id)
         document.getElementById('bouton_'+id).innerHTML='EXPERIENCES PROFESSIONNELLES';
     }
     else
+
     {
         document.getElementById(id).style.visibility="hidden";
         document.getElementById('bouton_'+id).innerHTML='EXPERIENCES PROFESSIONNELLES';
