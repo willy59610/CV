@@ -9,8 +9,7 @@
     box-shadow: 2px 4px 3px black;
     margin: 25px;
     background: white;
-    margin-inline-start: 500px;
-
+    margin-left: 500px;
 }
 #exp{
     border: 5px solid cadetblue;
@@ -21,7 +20,6 @@
     text-align: left;
     margin: 25px;
     background: white;
-
 }
 #exp1{
     border: 5px solid cadetblue;
@@ -32,24 +30,34 @@
     text-align: left;
     margin: 25px;
     background: white;
-
 }
-.form{
+#epx3{
     border: 5px solid cadetblue;
     box-shadow: 2px 4px 3px black;
     padding: 25px;
     width: 500px;
     height: 500px;
     text-align: left;
+    margin: 25px;
     background: white;
-
+    margin-top: 100px;
+}
+#exp4{
+    border: 5px solid cadetblue;
+    box-shadow: 2px 4px 3px black;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    margin: 25px;
+    background: white;
+    margin-top: 100px;
 }
 .page {
     font-family: Calibri;
     box-shadow: 2px 4px 3px black;
-    height: 1600px;
+    height: 2000px;
     background: floralwhite;
-
 }
 h2{
     color: cadetblue;
@@ -60,6 +68,88 @@ h2{
 #exp1:hover{
     color: red;
 }
-.info:hover{
+.info:hover {
     color: red;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+    }
+input:focus, textarea:focus {
+    border-color: #000;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input,textarea{
+    font: 1em SansSerif;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #999
+}
+.button{
+    padding-left: 100px;
+}
+textarea{
+    vertical-align: top;
+    height:5em;
+}
+button {
+    margin-top: 3em;
+}
+.bouton {
+    color:cadetblue;
+    font-size:24px;
+    cursor:pointer;
+    text-decoration: underline cadetblue;
+}
+.bouton1 {
+    color:cadetblue;
+    font-size:24px;
+    cursor:pointer;
+    text-decoration: underline cadetblue;
+}
+.bouton:hover
+{
+    text-decoration:underline;
+}
+.bouton1:hover
+{
+    text-decoration:underline;
+}
+.texte
+{
+    border:1px solid #333333;
+    background:#eeeeee;
+    padding:10px;
+    color:#333333;
+}
+.texte1
+{
+    border:1px solid #333333;
+    background:#eeeeee;
+    padding:10px;
+    color:#333333;
+    margin-bottom: 10px;
+}
+
+.texte:hover
+{
+    border:1px solid #000000;
+    background:#cccccc;
+    color:#000000;
+}
+.texte1:hover
+{
+    border:1px solid #000000;
+    background:#cccccc;
+    color:#000000;
 }
